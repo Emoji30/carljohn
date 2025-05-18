@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Dark background */
+  color: #fff; /* Light text */
+}
+
+/* Header Section */
+header {
+  background: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Profile Image and Name Flex Layout */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+/* Navigation */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+/* Experience Entries */
+.experience {
+  margin-bottom: 15px;
+}
+
+/* Skills Section */
+#skills p {
+  display: inline-block;
+  background: #eee;
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Contact Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
